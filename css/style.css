@@ -23,13 +23,15 @@ body {
 }
 
 .hero {
-  width: 25rem;
+  width: 22rem;
   color: #fff;
   margin-top: 1rem;
 }
+
 .shifter{
   width: 98vw;
 }
+
 .buy {
   border-right: 1px solid #fff;
   width: 4rem;
