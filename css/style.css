@@ -2,7 +2,7 @@
 body {
   background-image: url(../media/hero.svg);
   background-repeat: no-repeat;
-  background-size: 100em;
+  background-size: 115em;
   background-position-x: right;
   padding: 0;
   margin: 0;
@@ -13,5 +13,37 @@ body {
 .shift {
   width: 2rem;
   height: 2rem;
+  margin: 1rem;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero {
+  width: 25rem;
+  color: #fff;
+  margin-top: 1rem;
+}
+.shifter{
+  width: 98vw;
+}
+.buy {
+  border-right: 1px solid #fff;
+  width: 4rem;
+}
+
+.butt {
+  height: 2.5rem;
+  width: 8rem;
+  color: #fff;
+  border-radius: 5px;
+  border: #fff 1px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 1rem; */
 }
 
