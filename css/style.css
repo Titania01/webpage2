@@ -53,6 +53,19 @@ body {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  margin-top: 10rem;
+}
+
+.font {
+  font-size: 45px;
+  line-height: 2.8rem;
+  color: #3d396b;
+}
+
+.offer {
+  font-size: 14px;
+  color: #3d396b;
+  line-height: 3px;
 }
 
 .email {
