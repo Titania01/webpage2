@@ -77,9 +77,9 @@ body {
 }
 
 .email {
-  border: 0.5px solid #787878;
+  border: 0.5px solid #c7c4c4;
   border-radius: 100px;
-  width: 20rem;
+  width: 23rem;
   height: 3rem;
   background-color: white;
   display: flex;
@@ -113,10 +113,10 @@ body {
 
 .bgc2 {
   background-image: url(../media/feature1.svg);
-  background-size: 100em;
+  background-size: 100rem;
   background-position-x: left;
   width: 80vw;
-  height: 70vh;
+  height: 80vh;
   background-repeat: no-repeat;
 }
 
@@ -139,6 +139,7 @@ body {
 .trans h3 {
   font-size: 34px;
   color: #3d396b;
+  font-family: cursive;
 }
 
 .trans {
@@ -158,7 +159,7 @@ body {
 
 .coin {
   background-color: white;
-  height: 5rem;
+  height: 4.5rem;
   width: 6rem;
   box-shadow: 1px 1px 3px 1px lightgray;
   display: flex;
