@@ -116,15 +116,15 @@ body {
   background-size: 100em;
   background-position-x: left;
   width: 80vw;
-  height: 80vh;
+  height: 70vh;
   background-repeat: no-repeat;
 }
 
 .fast {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
-  margin-top: 5rem;
+  margin: 5rem 0 0 20rem;
 }
 
 .img {
@@ -132,9 +132,42 @@ body {
   width: 30rem;
 }
 
-.wallets {
+.trans {
+  margin-top: 10rem;
+}
+
+.trans h3 {
+  font-size: 34px;
+  color: #3d396b;
+}
+
+.trans {
+  color: #6d396b;
+  padding: 1rem;
+  font-size: 1rem;
+  font-family: cursive;
+}
+
+ .wallets {
   display: grid;
   grid-gap: 10px;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
+  padding-top: 2rem; 
+}
+
+.coin {
+  background-color: white;
+  height: 5rem;
+  width: 6rem;
+  box-shadow: 1px 1px 3px 1px lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+}
+
+.crypto {
+ height: 2.5rem;
+ width: 2.5rem;
 }
