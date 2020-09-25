@@ -175,7 +175,7 @@ body {
 
 .content2 {
   background: #F6F9FE;
-  height: 90vh;
+  height: 100vh;
   background-repeat: no-repeat;
   position: relative;
 }
@@ -197,9 +197,23 @@ body {
   opacity: 0.1;
 }
 
+.wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
 .head2 {
   margin-left: 52rem;
   font-size: 30px;
   color: #3d396b;
   margin-top: -2.8rem;
+}
+
+.how {
+  margin-left: 51rem;
+  color: #787878;
+  font-size: 20px;
 }
