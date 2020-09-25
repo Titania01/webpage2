@@ -175,7 +175,7 @@ body {
 
 .content2 {
   background: #F6F9FE;
-  height: 100vh;
+  height: 200vh;
   background-repeat: no-repeat;
   position: relative;
 }
@@ -197,13 +197,6 @@ body {
   opacity: 0.1;
 }
 
-.wrap {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-
 
 .head2 {
   margin-left: 52rem;
@@ -216,4 +209,30 @@ body {
   margin-left: 51rem;
   color: #787878;
   font-size: 20px;
+}
+
+.wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pic {
+  height: 32rem;
+}
+
+.deal {
+  padding-left: 1rem;
+}
+
+.tons {
+  color: #3d396b;
+  font-family: "Montserrat", sans-serif;
+}
+
+.explain {
+  color: #59549d;
+  font-family: "Montserrat", sans-serif;
+  padding-top: 1rem;
+  opacity: 0.9;
 }
